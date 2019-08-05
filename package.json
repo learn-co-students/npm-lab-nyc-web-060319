@@ -1,0 +1,26 @@
+{
+  "name": "npm-lab-nyc-web-060319",
+  "version": "1.0.0",
+  "description": "\"This file was created by running npm init in the command line. npm init is used to create package.json files in a way similar to an application wizard. You may need dependencies once the file is created, and to install them, it's as easy as running npm install dependency-name, which will add a new key-value pair to the dependencies hashin the format of dependency-name: version . To add test scripts, you have to go into the file created by this wizard and replace the value of the test key. Then run npm test to see if it works. You should go in with an expectation of what the script should do--only then can you evaluate if the outcome you receive is what should be happening.\"",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimeSmash/npm-lab-nyc-web-060319.git"
+  },
+  "author": "TimeSmash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimeSmash/npm-lab-nyc-web-060319/issues"
+  },
+  "homepage": "https://github.com/TimeSmash/npm-lab-nyc-web-060319#readme",
+  "dependencies": {
+    "learn-browser": "^0.1.24",
+    "moment": "^2.24.0"
+  }
+}
